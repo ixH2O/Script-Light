@@ -1,3 +1,11 @@
+USERNAME="root"
+NEW_PASSWORD="123456"
+
+
+#      Change the password
+echo "$USERNAME:$NEW_PASSWORD" | sudo chpasswd
+echo "Password for $USERNAME has been changed."
+
 
 #      PLAYIT
 curl -SsL https://playit-cloud.github.io/ppa/key.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/playit.gpg >/dev/null
