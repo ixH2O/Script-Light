@@ -40,7 +40,3 @@ wget https://download.nomachine.com/download/8.13/Linux/nomachine_8.13.1_1_amd64
 sudo dpkg -i nomachine_8.13.1_1_amd64.deb
 echo "--Nomachine Installed--"
 clear
-
-
-#      START PLAYIT
-playit
